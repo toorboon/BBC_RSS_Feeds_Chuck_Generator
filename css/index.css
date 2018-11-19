@@ -1,0 +1,358 @@
+/*Here you find the styling for the index.html */
+@import url("https://fonts.googleapis.com/css?family=Kosugi+Maru");
+#body_article {
+  margin-left: auto;
+  margin-right: auto; }
+
+.article_main {
+  width: 100%;
+  height: auto;
+  margin: 0 0 2vw 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+
+.bordered_bar {
+  font-size: 1.5vmax;
+  max-width: 90vw;
+  border: 1px solid;
+  background-color: #DEDEDE;
+  margin: 3vw;
+  padding: 1vw;
+  text-align: center; }
+
+.float_container {
+  width: 90%;
+  background-color: #DEDEDE;
+  margin: 0 auto 2vw auto; }
+
+.float_container p {
+  padding: 2vw; }
+
+.article_main img {
+  width: 20vw;
+  padding: 1vw; }
+
+.floated {
+  width: 22vw;
+  height: auto;
+  float: left;
+  padding: 1vw; }
+
+iframe {
+  width: 20vw;
+  height: 20vw;
+  padding: 1vw; }
+
+body {
+  font-family: "Kosugi Maru", sans-serif;
+  font-size: 1.5vw;
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  min-width: 300px; }
+
+* {
+  transition: 0.5s; }
+
+img, iframe {
+  border-radius: 2vw;
+  opacity: 0.8; }
+
+img:hover {
+  opacity: 1; }
+
+.body_wrapper {
+  flex: 1; }
+
+h5 {
+  text-align: right;
+  margin-right: 1.2vw; }
+
+/*That's where the header got styled */
+.header_top {
+  background-color: #541011;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-shrink: 1;
+  justify-content: space-around; }
+
+.header_top a {
+  margin: 0;
+  padding: 0; }
+
+.header_top img {
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  padding: 1.5vw;
+  object-fit: contain; }
+
+/*CSS for the main part */
+main {
+  margin: 2vw; }
+
+.mini_flex {
+  height: auto;
+  position: relative;
+  margin: 1vw;
+  font-size: 1vw; }
+
+.img_p {
+  position: absolute;
+  background-color: black;
+  color: white;
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  min-height: 4.4vw;
+  border-radius: 1vw; }
+
+.img_p p {
+  padding: 0 1vw 0 1vw;
+  font-size: 1.1vw; }
+
+.wrapper_main {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column; }
+
+.wrapper_1.row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column; }
+
+.wrapper_2columns {
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+  height: auto;
+  justify-content: space-between; }
+
+.wrapper_6image_bar {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  justify-content: space-between; }
+
+.banner_img, .banner_cf {
+  width: 100%;
+  max-width: 20vw;
+  height: auto;
+  margin: 1vw 1vw 1vw 0; }
+
+.top_news_img, .popular_img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: auto;
+  justify-content: space-between; }
+
+.grey_bar {
+  background-color: #DEDEDE;
+  padding: 0.5vw;
+  margin: 0 1vw 0 1vw; }
+
+.grey_bar2 {
+  background-color: #DEDEDE;
+  padding: 0.5vw;
+  margin: 0 1vw 0 1vw; }
+
+.top_news_img img, .popular_img img {
+  width: 26vw;
+  height: auto; }
+
+.banner_img img {
+  width: 100%;
+  height: 100%; }
+
+/*second row of main */
+.wrapper_2row {
+  width: 90%;
+  align-self: center;
+  flex: 0 0 auto; }
+
+.wrapper_2row img {
+  width: 100%; }
+
+/*third row of main */
+.wrapper_3row {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap; }
+
+.wrapper_6image_barV2 {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  justify-content: space-between; }
+
+.popular_img_4rows_x1, .popular_img_4rows_x2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: nowrap; }
+
+.wrapper_3row img {
+  width: 40vw; }
+
+.banner_cf img {
+  width: 100%;
+  height: 100%; }
+
+/*part for the Top-navbar styling */
+nav {
+  width: 100%; }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #131313;
+  overflow: hidden; }
+
+ul li {
+  float: left; }
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1vw 1.1vw;
+  text-decoration: none; }
+
+li a:hover {
+  background-color: #DEDEDE;
+  color: black; }
+
+footer {
+  width: 100%;
+  height: auto;
+  font-size: 1.2vw;
+  background-color: #131313;
+  color: white;
+  display: flex;
+  flex-direction: column; }
+
+footer img {
+  align-self: flex-end;
+  width: 18vw;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  padding: 1vw; }
+
+footer h3 {
+  align-self: center; }
+
+/*Necessary for Layout fixing */
+#hidden_pic {
+  display: none; }
+
+#hidden_pic_2 {
+  display: none; }
+
+#hide_me {
+  display: none; }
+
+@media screen and (max-width: 800px) {
+  body {
+    font-size: 2.2vw; }
+
+  .img_p p {
+    font-size: 1.5vw; }
+
+  .banner_cf, .banner_img, #hide_header_pic {
+    display: none; }
+
+  .top_news_img img, .popular_img img, .wrapper_3row img {
+    width: 100%; }
+
+  .wrapper_3row p {
+    min-height: 3vw; } }
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 3vw; }
+
+  p {
+    font-size: 4vw;
+    min-height: 3vw; }
+
+  #banner_cf, .banner_img, h5, .wrapper_2row, #hide_header_pic {
+    display: none; }
+
+  #hidden_pic_2, #hidden_pic {
+    display: block; }
+
+  #hide_pic {
+    display: none; }
+
+  #hidden_pic img {
+    width: 39vw;
+    height: auto;
+    margin: 1vw 2vw 1vw -2px; }
+
+  .mini_flex {
+    width: 40vw; }
+
+  .top_news_img img, .popular_img img, .popular_img_4rows img, .wrapper_3row img {
+    width: 100%;
+    height: auto; }
+
+  .img_p {
+    width: 100%; }
+
+  #hidden_pic {
+    margin: 0; }
+
+  .top_news_img, .popular_img, .popular_img_4rows, .wrapper_3row {
+    flex-wrap: wrap; }
+
+  .wrapper_3row {
+    justify-content: space-between; }
+
+  .wrapper_6image_barV2 {
+    width: 100%;
+    flex-direction: column-reverse;
+    justify-content: space-between; }
+
+  .popular_img_4rows_x1, .popular_img_4rows_x2 {
+    justify-content: space-between;
+    width: 100%; }
+
+  .header_top img {
+    margin-right: auto;
+    margin-left: 0; }
+
+  nav {
+    list-style: none;
+    text-align: center !important; }
+
+  nav li {
+    margin: auto;
+    display: inline;
+    float: none; }
+
+  nav a {
+    display: inline-block;
+    font-size: 3vw; }
+
+  footer img {
+    align-self: center !important;
+    width: 28vw; }
+
+  footer h3 {
+    font-size: 3vw; } }
+
+/*# sourceMappingURL=index.css.map */
